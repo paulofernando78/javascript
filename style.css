@@ -1,36 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: linear-gradient(black red);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Nabla', cursive;
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+}
+
 button {
-    margin: 50px 0;
-    border-radius: 5px;
-    border-color: #333333c4;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: red;
 }
 
 p {
     display: none;
 }
 
+span {
+    color: white;
+    font-family: 'Bangers', cursive;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
+    gap: 10px;
+    margin: 50px 10px;
 }
 
 .square {
-    background-color: rgb(211, 61, 61);
+    background-color: #3334;
     box-shadow: 0 1px 5px;
     width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 2s;
+    transition: 1s;
     margin: auto;
 }
 
@@ -39,7 +61,7 @@ p {
 }
 
 .color {
-    background-color: darkgreen;
+    background-color: rgb(50, 23, 167);
 }
 
 .pulse {
