@@ -27,3 +27,5 @@ const btnSpin = document.querySelector(".btn-spin")
 btnSpin.addEventListener("click", () => {
     square4.classList.toggle("spin");
 });
+
+document.write("Sup?");
