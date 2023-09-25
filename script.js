@@ -1,3 +1,14 @@
+
+// CALCULATIONS
+
+let num1 = 2;
+let num2 = 2;
+let sum = num1 + num2;
+
+document.getElementById('result').textContent = sum;
+
+// ANIMATIONS
+
 // SQUARE
 
 // Hide/Show me!
@@ -27,5 +38,3 @@ const btnSpin = document.querySelector(".btn-spin")
 btnSpin.addEventListener("click", () => {
     square4.classList.toggle("spin");
 });
-
-document.write("Sup?");

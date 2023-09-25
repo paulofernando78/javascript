@@ -27,12 +27,12 @@ button {
     background-color: red;
 }
 
-p {
+/* p {
     display: none;
-}
+} */
 
 span {
-    color: white;
+    /* color: white; */
     font-family: 'Bangers', cursive;
 }
 
